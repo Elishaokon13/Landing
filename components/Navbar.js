@@ -31,12 +31,12 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-black">
+    <header className="bg-[#059a75]">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="/assets/TGCx.svg" alt="" />
+            <img className="h-8 w-auto" src="/assets/TGCb.svg" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -50,13 +50,13 @@ export default function Example() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm font-semibold leading-6 text-[#ffffff]">
+          <a href="#" className="text-sm font-semibold leading-6 text-[#000000]">
             Features
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-[#ffffff]">
+          <a href="#" className="text-sm font-semibold leading-6 text-[#000000]">
             Marketplace
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-[#ffffff]">
+          <a href="#" className="text-sm font-semibold leading-6 text-[#000000]">
             Company
           </a>
         </Popover.Group>
