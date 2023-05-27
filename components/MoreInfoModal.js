@@ -4,28 +4,28 @@ import { BsFillPlusCircleFill } from 'react-icons/bs'
 const MoreInfoModal = () => {
   const info=[
     {
-      title:'How the first lesson with teacher will be?',
-      des:'By the end of the trial lesson, you will be able to determine for yourself whether this kind of online lesson is right for you or not. In our experience, most students appreciate the benefits of online education and decide to study online.'
+      title:'When is the conference holding?',
+      des:'The conference holds from the 1st to 4th of June 2023'
     },
     {
-      title:'How the first lesson with teacher will be?',
-      des:'By the end of the trial lesson, you will be able to determine for yourself whether this kind of online lesson is right for you or not. In our experience, most students appreciate the benefits of online education and decide to study online.'
+      title:'How many speakers daily?',
+      des:'Two catalysts will speak and share unconventional strategies for your growth journey daily'
     },
     {
-      title:'How the first lesson with teacher will be?',
-      des:'By the end of the trial lesson, you will be able to determine for yourself whether this kind of online lesson is right for you or not. In our experience, most students appreciate the benefits of online education and decide to study online.'
+      title:'How many days would the conference hold?',
+      des:'The Growth conference would hold for 4 days. But it does not end there. Beyond the conference, you will get personalized guidance to monitor and help you grow faster.'
+    },
+     {
+       title:'What time will it hold?',
+       des:'7pm Daily'
     },
     {
-      title:'How the first lesson with teacher will be?',
-      des:'By the end of the trial lesson, you will be able to determine for yourself whether this kind of online lesson is right for you or not. In our experience, most students appreciate the benefits of online education and decide to study online.'
+      title:'Where will it hold?',
+      des:'The Conference will hold on telegram'
     },
     {
-      title:'How the first lesson with teacher will be?',
-      des:'By the end of the trial lesson, you will be able to determine for yourself whether this kind of online lesson is right for you or not. In our experience, most students appreciate the benefits of online education and decide to study online.'
-    },
-    {
-      title:'How the first lesson with teacher will be?',
-      des:'By the end of the trial lesson, you will be able to determine for yourself whether this kind of online lesson is right for you or not. In our experience, most students appreciate the benefits of online education and decide to study online.'
+      title:'Is registration mandatory?',
+      des:'Yes it is.'
     },
   ]
   return (
@@ -43,13 +43,13 @@ const MoreInfoModal = () => {
     <Disclosure key={i} >
         {({ open }) => (
           <div className='group'>
-            <Disclosure.Button className="flex flex-col group-hover:bg-[#524fd5] group-focus:bg-[#524fd5] w-full justify-between rounded-lg lg:rounded-full border border-gray-200 px-8 py-10 text-left text-sm font-medium  focus:outline-none ">
+            <Disclosure.Button className="flex flex-col group-hover:bg-[#0c442a] group-focus:bg-[#0c442a] w-full justify-between rounded-lg lg:rounded-full border border-gray-200 px-8 py-10 text-left text-sm font-medium  focus:outline-none ">
               <div className="flex justify-between items-center w-full">
               <span className='group-hover:text-white  group-focus:text-white'>{inf.title}</span>
               <BsFillPlusCircleFill
                 className={`${
                   open ? 'rotate-180 transform' : ''
-                }  text-[#524fd5] text-2xl group-hover:text-white  group-focus:text-white `}
+                }  text-[#0c442a] text-2xl group-hover:text-white  group-focus:text-white `}
               />
               </div>
            

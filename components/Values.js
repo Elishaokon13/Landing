@@ -4,36 +4,71 @@ const Values = () => {
   return (
     <div className="container mx-auto py-20">
       <p className="text-base lg:text-xl font-medium text-gray-500 text-center">
-        WHY CHOOSE US
+        WHY JOIN
       </p>
       <p className=" text-3xl lg:text-5xl font-semibold text-gray-500 text-center mt-3">
-        Our Values
+        TGC?
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 py-20">
         <div className="flex flex-col gap-5 items-center">
           <img src="/assets/v1.svg" alt="v1" />
-          <p className="text-2xl font-semibold">Speaking clubs</p>
+          <p className="text-2xl font-semibold">Mind Restructuring</p>
           <p className="text-gray-500 text-center">
-            In our school you will practice <br /> your speaking skills and just get <br /> a
-            lot of positive emotions!
+            Harness the power of your mind for success.
           </p>
         </div>
         <div className="flex flex-col gap-5 items-center">
           <img src="/assets/v2.svg" alt="v1" />
-          <p className="text-2xl font-semibold">Quality control</p>
+          <p className="text-2xl font-semibold">Health Guidance</p>
           <p className="text-gray-500 text-center">
-            In our school you will practice <br /> your speaking skills and just get <br /> a
-            lot of positive emotions!
+            Build your body's resilience for peak performance on your growth journey.
           </p>
-        </div> <div className="flex flex-col gap-5 items-center">
+        </div>
+        <div className="flex flex-col gap-5 items-center">
           <img src="/assets/v3.svg" alt="v1" />
-          <p className="text-2xl font-semibold">Progress analysis</p>
+          <p className="text-2xl font-semibold">Skill Monetization</p>
           <p className="text-gray-500 text-center">
-            In our school you will practice <br /> your speaking skills and just get <br /> a
-            lot of positive emotions!
+            Sell your skill and passion at a worthy price.
+          </p>
+        </div>
+        <div className="flex flex-col gap-5 items-center">
+          <img src="/assets/v3.svg" alt="v1" />
+          <p className="text-2xl font-semibold">Productive Networking</p>
+          <p className="text-gray-500 text-center">
+            Like-minded creatives and professionals you can collaborate with
+          </p>
+        </div>
+        <div className="flex flex-col gap-5 items-center">
+          <img src="/assets/v3.svg" alt="v1" />
+          <p className="text-2xl font-semibold">Progressive Productivity</p>
+          <p className="text-gray-500 text-center">
+            Personality mastery for consistency and time management.
+          </p>
+        </div>
+        <div className="flex flex-col gap-5 items-center">
+          <img src="/assets/v3.svg" alt="v1" />
+          <p className="text-2xl font-semibold">Personalized guidance</p>
+          <p className="text-gray-500 text-center">
+            One-on-one enlightenment from mentors and experts in various fields.
           </p>
         </div>
       </div>
+      <div className="grid grid-cols-1 justify-center sm:grid-cols-2 lg:grid-cols-2 gap-6 lg:gap-16 py-50">
+          <div className="flex flex-col gap-5 items-center">
+            <img src="/assets/v3.svg" alt="v1" />
+            <p className="text-2xl font-semibold">Brand Influence</p>
+            <p className="text-gray-500 text-center">
+            Gain clarity, build and scale global brands.
+            </p>
+          </div>
+          <div className="flex flex-col gap-5 items-center">
+            <img src="/assets/v3.svg" alt="v1" />
+            <p className="text-2xl font-semibold">AI Mastery</p>
+            <p className="text-gray-500 text-center">
+            Improve your efficiency and results through cutting-edge technology.
+            </p>
+          </div>
+        </div>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="container mx-auto my-10">
       <div className="bg-[#f8fafe] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 lg:gap-10 px-10 py-10 rounded-3xl items-center justify-center ">
         <div className="flex flex-col items-center lg:items-start gap-5">
-          <img src="/assets/footerlogo.svg" alt="footer lgo" />
+          <img src="/assets/TGCb.svg" alt="footer lgo" />
           <p className="text-center lg:text-start">20 Osgood Rd, Milford, NH 03055, USA +1283871239190213021</p>
         </div>
         <div className="flex flex-col items-center lg:items-start gap-5">
