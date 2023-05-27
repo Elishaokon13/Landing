@@ -35,6 +35,10 @@ const Teacher = () => {
           </div>
           <p className="text-2xl font-semibold text-center text-[#ffffff]">Teddy Uchenna</p>
         </div>
+        <div className="flex flex-col gap-5 ">
+          <img src="/assets/RJ.jpg" alt="v1" className="rounded-xl" />
+          <p className="text-2xl font-semibold text-center text-[#ffffff]">Jescil Richard</p>
+        </div>
       </div>
     </div>
   );

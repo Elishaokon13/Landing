@@ -51,13 +51,13 @@ export default function Example() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <a href="#" className="text-sm font-semibold leading-6 text-[#000000]">
-            Features
+            WHY JOIN TGC
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-[#000000]">
-            Marketplace
+            MEET THE CATALYSTS
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-[#000000]">
-            Company
+            FAQ
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
