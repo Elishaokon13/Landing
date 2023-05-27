@@ -21,7 +21,7 @@ const Values = () => {
           <img src="/assets/v2.svg" alt="v1" />
           <p className="text-2xl font-semibold">Health Guidance</p>
           <p className="text-gray-500 text-center">
-            Build your body's resilience for peak performance on your growth journey.
+            Build your body&apos;s resilience for peak performance on your growth journey.
           </p>
         </div>
         <div className="flex flex-col gap-5 items-center">

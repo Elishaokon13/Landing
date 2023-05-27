@@ -9,13 +9,7 @@ const Footer = () => {
           <img src="/assets/TGCb.svg" alt="footer lgo" />
           <p className="text-center lg:text-start">20 Osgood Rd, Milford, NH 03055, USA +1283871239190213021</p>
         </div>
-        <div className="flex flex-col items-center lg:items-start gap-5">
-          <p className="text-xl font-medium">Company</p>
-          <p className="text-base">Careers</p>
-          <p className="text-base">Teachers</p>
-          <p className="text-base">Support</p>
-          <p className="text-base">Contact</p>
-        </div>
+        
         <div className="flex flex-col items-center lg:items-start gap-5">
           <p className="text-xl font-medium">Product</p>
           <p className="text-base">Courses</p>
