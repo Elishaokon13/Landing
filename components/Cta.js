@@ -41,8 +41,8 @@ const GlassmorphismForm = () => {
 
   return (
     <div>
-    <form className="bg-white bg-opacity-20 p-8 rounded-md max-w-md mx-auto">
-      <h1 className="text-2xl text-[#059a75] font-bold mb-4">We would love your feedback</h1>
+    <form className="bg-[#059a75] bg-opacity-20 p-8 rounded-md max-w-md mx-auto">
+      <h1 className="text-2xl text-[#000000] font-bold mb-4">We would love your feedback</h1>
       <div className="mb-4">
         <label className="block text-white text-sm font-bold mb-2" htmlFor="name">
           Name
