@@ -86,7 +86,7 @@ const GlassmorphismForm = () => {
         />
       </div>
       <button
-        className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        className="bg-[#059a75] hover:bg-[#0c442a] text-white font-bold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
         type="submit"
         onClick={handleSubmit}
       >
