@@ -12,14 +12,14 @@ const Values = () => {
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 py-20">
         <div className="flex flex-col gap-5 items-center">
-          <img src="/assets/jescil.png" alt="v1" className="w-20"/>
+          <img src="/assets/jescil.png" alt="v1" className="w-10 lg:w-20"/>
           <p className="text-2xl font-semibold">Mind Restructuring</p>
           <p className="text-gray-500 text-center">
             Harness the power of your mind for success.
           </p>
         </div>
         <div className="flex flex-col gap-5 items-center">
-          <img src="/assets/favour eze.png" alt="v1" className="w-20"/>
+          <img src="/assets/favour eze.png" alt="v1" className="w-10 lg:w-20"/>
           <p className="text-2xl font-semibold">Health Guidance</p>
           <p className="text-gray-500 text-center">
             Build your body&apos;s resilience for peak performance on your growth journey.

@@ -28,7 +28,7 @@ export default function Hero() {
                 <a href="#">
                   <span className="sr-only">Workflow</span>
                   <img
-                    className="h-15 w-auto sm:h-20"
+                    className="h-20 w-auto sm:h-20"
                     src='/assets/illustration.png'
                     alt=""
                   />
