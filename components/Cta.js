@@ -41,14 +41,20 @@ const GlassmorphismForm = () => {
 
   return (
     <div>
-    <form className="bg-[#059a75] bg-opacity-20 p-8 rounded-md max-w-md mx-auto">
-      <h1 className="text-2xl text-[#000000] font-bold mb-4">We would love your feedback</h1>
+    <p className="text-base lg:text-xl font-medium text-gray-500 text-center">
+        Have you attended
+      </p>
+      <p className=" text-3xl lg:text-5xl font-semibold text-[#059a75] text-center mt-3">
+        TGC 1.0?
+      </p>
+    <form className="bg-[#059a75] bg-opacity-40 p-8 rounded-md max-w-md mx-auto mb-20">
+      <h1 className="text-2xl text-[#059a75] font-bold mb-4">We would love your feedback</h1>
       <div className="mb-4">
-        <label className="block text-white text-sm font-bold mb-2" htmlFor="name">
+        <label className="block text-[059a75] text-sm font-bold mb-2" htmlFor="name">
           Name
         </label>
         <input
-          className="w-full bg-white bg-opacity-10 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="w-full bg-[#0c442a] bg-opacity-10 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           id="name"
           type="text"
           name="name"
@@ -58,11 +64,11 @@ const GlassmorphismForm = () => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-white text-sm font-bold mb-2" htmlFor="email">
+        <label className="block text-[059a75] text-sm font-bold mb-2" htmlFor="email">
           Email
         </label>
         <input
-          className="w-full bg-white bg-opacity-10 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="w-full bg-[#0c442a] bg-opacity-10 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           id="email"
           type="email"
           name="email"
@@ -72,11 +78,11 @@ const GlassmorphismForm = () => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-white text-sm font-bold mb-2" htmlFor="message">
+        <label className="block text-[#0c442a] text-sm font-bold mb-2" htmlFor="message">
           Tell us what you think about our TGC? What are you expecting in the future?
         </label>
         <textarea
-          className="w-full bg-white bg-opacity-10 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="w-full bg-[#0c442a] bg-opacity-10 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           id="message"
           name="message"
           rows={4}
@@ -97,9 +103,9 @@ const GlassmorphismForm = () => {
       <div className="fixed inset-0 flex items-center justify-center z-50">
         <div className="bg-white w-1/2 p-6 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold mb-4">Success!</h2>
-          <p>Your form has been submitted successfully.</p>
+          <p>Your response has been sent successfully.</p>
           <button
-            className="mt-4 bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            className="mt-4 bg-[#0c442a] hover:bg-[#0c442a] text-white font-bold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
             onClick={() => setShowModal(false)}
           >
             Close

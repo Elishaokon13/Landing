@@ -2,7 +2,7 @@ import React from "react";
 
 const Teacher = () => {
   return (
-    <div className="container bg-[#000000] mx-auto py-20">
+    <div className="container bg-[#000000] mx-auto py-20" id="Catalyst">
       <p className="text-base lg:text-xl font-medium text-gray-500 uppercase">
         Meet the
       </p>
@@ -38,6 +38,10 @@ const Teacher = () => {
         <div className="flex flex-col gap-5 ">
           <img src="/assets/RJ.jpg" alt="v1" className="rounded-xl" />
           <p className="text-2xl font-semibold text-center text-[#ffffff]">Jescil Richard</p>
+        </div>
+        <div className="flex flex-col gap-5 ">
+          <img src="/assets/LynnB.jpg" alt="v1" className="rounded-xl" />
+          <p className="text-2xl font-semibold text-center text-[#ffffff]">Lynn Bojor</p>
         </div>
       </div>
     </div>
