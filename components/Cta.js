@@ -6,6 +6,7 @@ const GlassmorphismForm = () => {
     email: '',
     message: ''
   });
+  const [showModal, setShowModal] = useState(false); // State to control the visibility of the modal
 
   const handleChange = (e) => {
     setFormData({
@@ -28,7 +29,7 @@ const GlassmorphismForm = () => {
 
       if (response.ok) {
         // Form submission successful
-        console.log('Form submitted successfully!');
+        setShowModal(true); // Show the modal on successful form submission
       } else {
         // Form submission failed
         console.error('Form submission failed.');
@@ -39,8 +40,9 @@ const GlassmorphismForm = () => {
   };
 
   return (
+    <div>
     <form className="bg-white bg-opacity-20 p-8 rounded-md max-w-md mx-auto">
-      <h1 className="text-2xl font-bold mb-4">We would love your feedback</h1>
+      <h1 className="text-2xl text-[#059a75] font-bold mb-4">We would love your feedback</h1>
       <div className="mb-4">
         <label className="block text-white text-sm font-bold mb-2" htmlFor="name">
           Name
@@ -91,6 +93,21 @@ const GlassmorphismForm = () => {
         Submit
       </button>
     </form>
+    {showModal && (
+      <div className="fixed inset-0 flex items-center justify-center z-50">
+        <div className="bg-white w-1/2 p-6 rounded-lg shadow-lg">
+          <h2 className="text-2xl font-bold mb-4">Success!</h2>
+          <p>Your form has been submitted successfully.</p>
+          <button
+            className="mt-4 bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            onClick={() => setShowModal(false)}
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    )}
+    </div>
   );
 };
 

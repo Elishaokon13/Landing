@@ -7,7 +7,7 @@ const Values = () => {
       <p className="text-base lg:text-xl font-medium text-gray-500 text-center">
         WHY JOIN
       </p>
-      <p className=" text-3xl lg:text-5xl font-semibold text-gray-500 text-center mt-3">
+      <p className=" text-3xl lg:text-5xl font-semibold text-[#059a75] text-center mt-3">
         TGC?
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 py-20">
