@@ -79,7 +79,7 @@ const GlassmorphismForm = () => {
       </div>
       <div className="mb-4">
         <label className="block text-[#0c442a] text-sm font-bold mb-2" htmlFor="message">
-          Tell us what you think about our TGC? What are you expecting in the future?
+          What would you like us to cover at TGC 2.0?
         </label>
         <textarea
           className="w-full bg-[#0c442a] bg-opacity-10 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
